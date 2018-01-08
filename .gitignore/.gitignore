@@ -1,0 +1,19 @@
+Public class PropertiesFile{
+static Properties prop;
+static String browser;
+
+public static string readPropertiesFile()
+{
+	prop=new Prperties();
+
+	try
+	{
+	inputstreaminput input = new fileinpuitstream("properties file path")
+	prop.load(input);	
+	prop.getproperty("browser");
+	}
+catch(exception e){
+e.printStackTrace();
+}
+}
+}
